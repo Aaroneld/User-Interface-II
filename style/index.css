@@ -1,1 +1,103 @@
 /* Add CSS styling here */
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+header > nav > button {
+    align-self: flex-end;
+    margin: 0;
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header > h3 {
+    align-self: center;
+    flex-basis: 85%;
+    font-size: 30px;
+}
+
+#main-image {
+    
+    display: flex;
+    flex-basis: 80%;
+    justify-content: center;
+    margin: 0 0 40px 0;
+}
+
+#center-div {
+    background-image: url("https://i.picsum.photos/id/237/200/300.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#center-div > h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+#center-div > button {
+   width: 100px;
+   align-self: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.row > * {
+    flex-basis: 33%;
+}
+
+.row > div:nth-child(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#first-row, #second-row{
+    margin-bottom: 20px;
+} 
+
+.image-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-caption > caption {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-caption > img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+footer {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+
+}
