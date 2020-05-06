@@ -50,9 +50,103 @@ table {
 * {
     box-sizing: border-box;
 }
-body {
-    background-color: pink;
-}
+/* Header style*/
 header h1{
+
+    font-size: 50px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+/* Nav bar*/
+header nav{
+    font-size: 50px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.home{
+    background-color: cyan;
+    margin-left: 5px;
+    
+}
+.about{
+    background-color: cyan;
+    margin-left: 5px;
+}
+.contact{
+    background-color: cyan;
+    margin-left: 5px;
+}
+.projects{
+    background-color: cyan;
+    margin-left: 5px;
+}
+/* Hover */ 
+.home:hover{
+    background-color: LIGHTBLUE;
+
+}
+.about:hover{
+    background-color: LIGHTBLUE;
+
+}
+.contact:hover{
+    background-color: LIGHTBLUE;
+
+}
+.projects:hover{
+    background-color: LIGHTBLUE;
+
+}
+/*  section styles */
+.section1{
+    display: flex;
+    background-color: CYAN;
+    border: 10px solid black;
+    
+}
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 4;
+}
+/* image styles */ 
+.mainpic img {
+    padding: 0px;
+    width: 400px;
+    height: 400px;
+    
+}
+/* Text */
+.mainbio{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-around;
+}
+.mainbio h2{
+    font-size: 60px;
+}
+.mainbio h3{
     font-size: 50px;
 }
+.mainbio p{
+    font-size: 30px;
+}
+/* Footer*/
+.footer{
+    text-align: center;
+}
+
+.footer h2{
+    font-size: 30px;
+    
+}
+button {
+    background-color: CYAN;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 30px;
+  }
