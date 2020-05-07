@@ -51,6 +51,10 @@ table {
     box-sizing: border-box;
 }
 /* Header style*/
+
+header{
+    background: lightgrey;
+}
 header h1{
 
     font-size: 50px;
@@ -63,23 +67,32 @@ header nav{
     font-size: 50px;
     margin-left: 20px;
     padding: 10px;
+    
 }
 .home{
     background-color: cyan;
     margin-left: 5px;
+    text-decoration: none;
+    border: 1.5px dotted black;
     
 }
 .about{
     background-color: cyan;
     margin-left: 5px;
+    text-decoration: none;
+    border: 1.5px dotted black;
 }
 .contact{
     background-color: cyan;
     margin-left: 5px;
+    text-decoration: none;
+    border: 1.5px dotted black;
 }
 .projects{
     background-color: cyan;
     margin-left: 5px;
+    text-decoration: none;
+    border: 1.5px dotted black;
 }
 /* Hover */ 
 .home:hover{
@@ -106,10 +119,26 @@ header nav{
     
 }
 .section2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 4;
+   
 }
+
+    
+.section2First{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:30px 0px 30px 0px;
+}
+.section2Second{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:30px 0px 30px 0px;
+
+}
+
 /* image styles */ 
 .mainpic img {
     padding: 0px;
@@ -134,13 +163,24 @@ header nav{
 .mainbio p{
     font-size: 30px;
 }
+
+/* Text linked to divs in sectionTwo*/
+.column{
+    text-align: center;
+    font-size: 25px;
+}
+
 /* Footer*/
 .footer{
     text-align: center;
+    background: lightgrey;
+    height: 150px;
 }
 
 .footer h2{
     font-size: 30px;
+    margin: 30px 0px 30px 0px;
+    padding-top: 20px; 
     
 }
 button {
